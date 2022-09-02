@@ -1,0 +1,94 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 0.5rem;
+  height: 100vh;
+}
+
+.header img:first-child {
+  width: 5rem;
+  height: 5rem;
+}
+
+.header img:last-child {
+  width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  align-self: center;
+}
+
+.header div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.header div:last-child {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.header div:last-child h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.header div:last-child p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.header div:last-child button {
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  cursor: pointer;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 940px) {
+  .header div:last-child h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .header div:last-child p {
+    font-size: 1rem;
+  }
+
+  .header div:last-child button {
+    font-size: 1rem;
+    width: 180px;
+    padding: 0.8rem 1.3rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header div:last-child h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .header div:last-child p {
+    font-size: 1rem;
+  }
+
+  .header div:last-child button {
+    font-size: 0.8rem;
+    width: 150px;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+  }
+}

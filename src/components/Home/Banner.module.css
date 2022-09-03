@@ -46,12 +46,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
+  background-color: #e4eb1b;
   color: #fff;
   outline: none;
   border: none;
   border-bottom-left-radius: 25px;
-  border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   cursor: pointer;
   margin-top: 2.5rem;

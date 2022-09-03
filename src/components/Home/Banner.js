@@ -8,7 +8,10 @@ const Banner = () => {
       <div>
         <img src={logoImage} alt="logo" className={classes.logo} />
         <div>
-          <h1>Delicious food for your cravings!</h1>
+          <h1>
+            Delicious food for your{" "}
+            <span className="color-gradient"> cravings! </span>
+          </h1>
           <p> We made fresh and healty meals with different recipes. </p>
           <button>
             View Menu <span> &rarr; </span>

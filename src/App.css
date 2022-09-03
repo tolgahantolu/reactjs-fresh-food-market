@@ -30,3 +30,12 @@ button {
   width: 95%;
   margin: 0 auto;
 }
+
+.color-gradient {
+  color: transparent;
+  background: #e4eb1b;
+  background-image: -webkit-linear-gradient(to right, #45b649, #e4eb1b);
+  background-image: linear-gradient(to right, #45b649, #e4eb1b);
+  background-clip: text;
+  -webkit-background-clip: text;
+}

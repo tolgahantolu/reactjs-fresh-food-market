@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <header className={classes.header}>
       <div>
-        <img src={logoImage} alt="logo" className={classes.logo} />
+        <img src={logoImage} alt="logo" />
         <div>
           <h1>
             Delicious food for your{" "}

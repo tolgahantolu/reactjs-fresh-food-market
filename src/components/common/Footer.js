@@ -7,7 +7,7 @@ const Footer = () => {
       <p>
         We're a team of Professional Cook Services. We have amazing skills and
         experience in cooking, lorem ipsum dolor sit amet. <br />
-        <i> @freshfoodmarketteam </i>
+        <i> @freshfoodmarket </i>
       </p>
       <img src={logoImage} alt="logo" />
     </footer>

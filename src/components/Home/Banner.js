@@ -9,7 +9,7 @@ const Banner = () => {
         <img src={logoImage} alt="logo" />
         <div>
           <h1>
-            Delicious food for your{" "}
+            Delicious food for your
             <span className="color-gradient"> cravings! </span>
           </h1>
           <p> We made fresh and healty meals with different recipes. </p>

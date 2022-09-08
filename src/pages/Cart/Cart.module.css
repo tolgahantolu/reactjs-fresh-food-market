@@ -1,0 +1,35 @@
+.cart-header {
+  padding: 0.5rem 0;
+}
+
+.cart-header h3 {
+  color: #45b649;
+}
+
+.orders {
+  margin: 2rem 0 0 0;
+  min-height: calc(100vh - 15rem);
+}
+
+.orders h1,
+.orders h3 {
+  width: 100%;
+  max-width: 600px;
+}
+
+.orders h1 {
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #000;
+}
+
+.orders h3 {
+  margin-top: 5rem;
+  margin-left: auto;
+  text-align: right;
+  border-top: 2px solid #000;
+  padding-top: 0.5rem;
+}

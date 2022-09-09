@@ -1,15 +1,15 @@
-import { DUMMY_MENU_ITEMS } from "./data";
 import MenuItem from "./MenuItem";
 import classes from "./Menu.module.css";
+import { forwardRef } from "react";
 
-const Menu = (props) => {
+const Menu = forwardRef((props, ref) => {
   return (
-    <main className={classes.menu}>
+    <main className={classes.menu} ref={ref}>
       {props.list.map((item) => {
         return <MenuItem key={item.id} items={item} />;
       })}
     </main>
   );
-};
+});
 
 export default Menu;

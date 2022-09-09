@@ -2,7 +2,7 @@ import classes from "./Banner.module.css";
 import bannerImage from "./banner.png";
 import logoImage from "./logo.png";
 
-const Banner = () => {
+const Banner = (props) => {
   return (
     <header className={classes.header}>
       <div>
@@ -13,7 +13,7 @@ const Banner = () => {
             <span className="color-gradient"> cravings! </span>
           </h1>
           <p> We made fresh and healty meals with different recipes. </p>
-          <button>
+          <button onClick={props.onMenuScroll}>
             View Menu <span> &rarr; </span>
           </button>
         </div>
